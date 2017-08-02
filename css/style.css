@@ -32,12 +32,15 @@
 #fxbanner {
     width: 100%;
     padding-left: 70px;
-    margin-left: 20px;
+    margin-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
     /*background: #f8f8f8;*/
+}
+.MITlogo{
+    margin-left: 50px;
 }
 
 #fx-aside {
