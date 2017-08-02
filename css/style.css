@@ -472,6 +472,9 @@ body {
   }
 }
 /*Contact Page*/
+#fx-contact{
+    margin-right: 50px;
+}
 @media screen and (max-width: 768px) {
   #map {
     height: 200px;
