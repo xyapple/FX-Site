@@ -36,11 +36,11 @@
     </head>
 
     <body>
-        <div class="container-fluid">
+        <div id="fx-bage">
             <!--Beginning of Banner  -->
             <section id="fxbanner" class="fx-banner">
                 <img src='./images/banner.jpg' alt='sorry, cannot find the image' />
-                <a href="http://web.mit.edu/"><img class="MITlogo" src='./images/MIT-logo.png' alt='sorry, cannot find the image'/></a>
+                <a href="http://web.mit.edu/" target="_blank"><img class="MITlogo" src='./images/MIT-logo.png' alt='sorry, cannot find the image'/></a>
             </section>
 
             <!-- End of Banner -->
@@ -52,15 +52,24 @@
                 <nav id="fx-main-menu" role="navigation">
                     <ul>
                         <li class="fx-active"><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="about.html">About</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                        <li><a href="Inventory.html">Inventories</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <!--End of Nav Sidebar -->
                 <!-- Beginning of Footer -->
                 <div class="fx-footer">
+                    <h5>    Business Hours:    </h5>
+                    <h6>Tuesdays & Thursdays</h6>
+                    <p>10:00am - 4:00pm</p>
+                    <h5> Addition Hours:</h5>
+                    <h6>the first Saturday of each month</h6>
+                    <p>10:00am -1:00pm</p>
+                    <p>
+                        <small>&copy; MIT Furniture Exchange</small>
+                    </p>
                     <ul class="fa-ul">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -72,20 +81,165 @@
             </aside>
             <!--End of Footer -->
             <!-- End of Sidebar -->
-            <!-- jQuery -->
-            <script src="js/jquery.min.js"></script>
-            <!-- jQuery Easing -->
-            <script src="js/jquery.easing.1.3.js"></script>
-            <!-- Bootstrap -->
-            <script src="js/bootstrap.min.js"></script>
-            <!-- Waypoints -->
-            <script src="js/jquery.waypoints.min.js"></script>
-            <!-- Flexslider -->
-            <script src="js/jquery.flexslider-min.js"></script>
+            <!-- Beginning of Main Page -->
+            <div id="fx-main">
+                <div id='fx-home'>
+                    <div class="tm-content-box tm-content-box-home">
+                    <img src="images/antiquecouch2.jpg" alt="Image 1" class="img-fluid tm-welcome-img">
+                    <div class="tm-welcome-boxes-container">
+                        <div class="tm-welcome-box">
+                            <div class="tm-welcome-text">
+                                <h2 class="tm-section-title">Aliquam ante sapien</h2>
+                                <p>Duis vel elit eu eros dapibus vestibulum vel vel nibh. Nulla id ornare eros, at efficitur risus.</p>
+                            </div>
+                            <a href="#" class="tm-welcome-link tm-button">Learn More</a>
+                        </div>
+                        <div class="tm-welcome-box">
+                            <div class="tm-welcome-text">
+                                <h2 class="tm-section-title">Lorem ipsum dolor</h2>
+                                <p>Vivamus eleifend ac turpis sit amet maximus. Nulla in faucibus nisl, ut ultrices magna.</p>
+                            </div>
+                            <a href="#" class="tm-welcome-link tm-button">Read Details</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
 
 
-            <!-- MAIN JS -->
-            <!-- <script src="js/main.js"></script> -->
+                <div class="fx-narrow-content">
+                    <h2 class="fx-heading animate-box" data-animate-effect="fadeInLeft">Services</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="fx-feature animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fx-icon">
+                                    <i class="icon-settings"></i>
+                                </div>
+                                <div class="fx-text">
+                                    <h3>Strategy</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="fx-feature animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fx-icon">
+                                    <i class="icon-search4"></i>
+                                </div>
+                                <div class="fx-text">
+                                    <h3>Explore</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="fx-feature animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fx-icon">
+                                    <i class="icon-paperplane"></i>
+                                </div>
+                                <div class="fx-text">
+                                    <h3>Direction</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="fx-feature animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fx-icon">
+                                    <i class="icon-params"></i>
+                                </div>
+                                <div class="fx-text">
+                                    <h3>Expertise</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="fx-narrow-content">
+        <h2 class="fx-heading animate-box" data-animate-effect="fadeInLeft">Recent Blog</h2>
+        <div class="row row-bottom-padded-md">
+            <div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+                <div class="blog-entry">
+                    <a href="#" class="blog-img"><img src="images/img-1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+                    <div class="desc">
+                        <h3><a href="#">Inspirational Website</a></h3>
+                        <span><small>by Admin </small> / <small> Web Design </small> / <small> <i class="icon-comment"></i> 14</small></span>
+                        <p>Design must be functional and functionality must be translated into visual aesthetics</p>
+                        <a href="#" class="lead">Read More <i class="icon-arrow-right3"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+                <div class="blog-entry">
+                    <a href="#" class="blog-img"><img src="images/img-2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+                    <div class="desc">
+                        <h3><a href="#">Inspirational Website</a></h3>
+                        <span><small>by Admin </small> / <small> Web Design </small> / <small> <i class="icon-comment"></i> 14</small></span>
+                        <p>Design must be functional and functionality must be translated into visual aesthetics</p>
+                        <a href="#" class="lead">Read More <i class="icon-arrow-right3"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+                <div class="blog-entry">
+                    <a href="#" class="blog-img"><img src="images/img-3.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+                    <div class="desc">
+                        <h3><a href="#">Inspirational Website</a></h3>
+                        <span><small>by Admin </small> / <small> Web Design </small> / <small> <i class="icon-comment"></i> 14</small></span>
+                        <p>Design must be functional and functionality must be translated into visual aesthetics</p>
+                        <a href="#" class="lead">Read More <i class="icon-arrow-right3"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+                <div class="blog-entry">
+                    <a href="#" class="blog-img"><img src="images/img-4.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+                    <div class="desc">
+                        <h3><a href="#">Inspirational Website</a></h3>
+                        <span><small>by Admin </small> / <small> Web Design </small> / <small> <i class="icon-comment"></i> 14</small></span>
+                        <p>Design must be functional and functionality must be translated into visual aesthetics</p>
+                        <a href="#" class="lead">Read More <i class="icon-arrow-right3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+                <div id="get-in-touch">
+                    <div class="fx-narrow-content">
+                        <div class="row">
+                            <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                <h1 class="fx-heading-colored">Get in touch</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <p class="fx-lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End of Main Page -->
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Flexslider -->
+        <script src="js/jquery.flexslider-min.js"></script>
+
+
+        <!-- MAIN JS -->
+        <!-- <script src="js/main.js"></script> -->
 
         </div>
     </body>

@@ -1,18 +1,20 @@
-.welcome-boxes-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    position: static;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1080px;
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.5);
+  /*background: whitesmoke;*/
+}
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+}
+#fx-page {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 
@@ -36,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    z-index: 1001;
     /*background: #f8f8f8;*/
 }
 .MITlogo{
@@ -80,7 +82,7 @@
     text-align: center;
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 700;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     text-transform: uppercase;
     font-size: 38px;
 }
@@ -226,4 +228,21 @@
     text-decoration: none;
     outline: none;
     color: #228896;
+}
+/*End of Sidebar*/
+
+/*Beginning of Main*/
+#fx-main {
+  width: 80%;
+  float: right;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fx-home {
+  min-height: 500px;
+  /*background: #fff url(../images/loader.gif) no-repeat center center;*/
+  width: 100%;
+  float: right;
+  clear: both;
 }
