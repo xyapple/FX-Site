@@ -242,6 +242,32 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+@media screen and (max-width: 1200px) {
+  #fx-main {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fx-main {
+    width: 100%;
+  }
+}
+#fx-main .fx-narrow-content {
+  position: relative;
+  width: 93%;
+  margin: 0 auto;
+  padding: 4em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fx-main .fx-narrow-content {
+    width: 100%;
+    padding: 4em 1em;
+  }
+}
+
+
+
 #fx-home {
   min-height: 500px;
   /*background: #fff url(../images/loader.gif) no-repeat center center;*/
@@ -443,5 +469,96 @@ body {
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 1em;
+  }
+}
+/*Contact Page*/
+@media screen and (max-width: 768px) {
+  #map {
+    height: 200px;
+  }
+}
+
+.fx-more-contact {
+  background: #fafafa;
+}
+
+.fx-feature {
+  text-align: left;
+  width: 100%;
+  float: left;
+  margin-bottom: 40px;
+  position: relative;
+}
+.fx-feature .fx-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  display: table;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.fx-feature .fx-icon i {
+  display: table-cell;
+  vertical-align: middle;
+  color: #228896;
+  font-size: 40px;
+  height: 100px;
+}
+@media screen and (max-width: 1200px) {
+  .fx-feature .fx-icon i {
+    font-size: 40px;
+  }
+}
+.fx-feature .fx-text {
+  padding-left: 120px;
+  width: 100%;
+}
+.fx-feature .fx-text h2, .fx-feature .fx-text h3 {
+  margin: 0;
+  padding: 0;
+}
+.fx-feature .fx-text h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+.fx-feature.fx-feature-sm .fx-text {
+  margin-top: 30px;
+}
+.fx-feature.fx-feature-sm .fx-icon i {
+  color: #228896;
+  font-size: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .fx-feature.fx-feature-sm .fx-icon i {
+    font-size: 28px;
+  }
+}
+
+.fx-heading {
+  font-size: 18px;
+  margin-bottom: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.fx-heading.fx-light {
+  color: #fff;
+}
+.fx-heading span {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .fx-heading {
+    margin-bottom: 1em;
   }
 }
