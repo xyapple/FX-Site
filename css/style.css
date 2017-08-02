@@ -331,7 +331,9 @@ body {
         color: black;
 	}
 
-	.fx-content-box-home { margin-bottom: 126px; }
+	.fx-content-box-home {
+        margin-bottom: 126px;
+    }
 
 	.fx-flex {
 		-webkit-flex-flow: row;
@@ -416,12 +418,27 @@ body {
     }
 /*About Page*/
 .fx-heading {
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 2em;
+  margin-top: 4em;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 #fx-about{
     align-items: center;
+}
+.row-bottom-padded-md {
+  padding-bottom: 4em;
+}
+.fx-content-box-about{
+
+    align-items: center;
+    text-align: left;
+
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-md {
+    padding-bottom: 1em;
+  }
 }
