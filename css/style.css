@@ -510,15 +510,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.6rem;
     font-weight: 400;
 }
+
+.fx-lead {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
 .fx-heading-colored {
   color: #228896;
   font-size: 40px;
   font-weight: bold;
-  text-align: center;
-}
-.fx-lead {
-  font-size: 18px;
-  line-height: 1.5;
   text-align: center;
 }
 
@@ -654,8 +655,15 @@ h1, h2, h3, h4, h5, h6 {
 #fx-about{
     align-items: center;
 }
+#Abouttextbox{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
 .row-bottom-padded-md {
   padding-bottom: 4em;
+
 }
 .fx-content-box-about{
     align-items: center;
@@ -760,4 +768,10 @@ h1, h2, h3, h4, h5, h6 {
   .fx-heading {
     margin-bottom: 1em;
   }
+}
+/*Donation*/
+.narrow-list{
+    margin-left: 30px;
+    padding: 20px;
+    align-items: center;
 }
