@@ -308,7 +308,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #fx-home {
   min-height: 500px;
-  /*background: #fff url(../images/loader.gif) no-repeat center center;*/
   width: 100%;
   float: right;
   clear: both;
@@ -389,6 +388,8 @@ h1, h2, h3, h4, h5, h6 {
 
 	.fx-section-title {
         margin-bottom: 30px;
+        color: #228896;
+        font-weight: 600;
     }
 
 	.fx-welcome-text {
