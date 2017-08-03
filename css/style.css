@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
 }
 
+
 #fx-page {
   width: 100%;
   overflow: hidden;
@@ -284,34 +285,175 @@ h1, h2, h3, h4, h5, h6 {
   #fx-main {
     width: 70%;
   }
+  #fx-main .fx-narrow-content {
+    position: relative;
+    width: 93%;
+    margin: 0 auto;
+    padding: 4em 0;
+    clear: both;
+  }
 }
 @media screen and (max-width: 768px) {
   #fx-main {
     width: 100%;
   }
-}
+
 #fx-main .fx-narrow-content {
-  position: relative;
-  width: 93%;
-  margin: 0 auto;
-  padding: 4em 0;
-  clear: both;
-}
-@media screen and (max-width: 768px) {
-  #fx-main .fx-narrow-content {
-    width: 100%;
-    padding: 4em 1em;
-  }
+  width: 100%;
+  padding: 4em 1em;
 }
 
-
-
+}
+/*Home Page CSS*/
 #fx-home {
   min-height: 500px;
   width: 100%;
   float: right;
   clear: both;
 }
+#fx-home .btn {
+  font-size: 24px;
+}
+#fx-home .btn.btn-primary {
+  padding: 14px 30px !important;
+}
+#fx-home .flexslider {
+  border: none;
+  z-index: 1;
+  margin-bottom: 0;
+}
+#fx-home .flexslider .slides {
+  position: relative;
+  overflow: hidden;
+}
+#fx-home .flexslider .slides .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.3);
+}
+#fx-home .flexslider .slides li {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 500px;
+  position: relative;
+}
+#fx-home .flexslider .flex-control-nav {
+  bottom: 20px;
+  z-index: 1000;
+  right: 20px;
+  float: right;
+  width: auto;
+}
+#fx-home .flexslider .flex-control-nav li {
+  display: block;
+  margin-bottom: 10px;
+}
+#fx-home .flexslider .flex-control-nav li a {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+#fx-home .flexslider .flex-control-nav li a.flex-active {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #228896;
+}
+#fx-home .flexslider .flex-direction-nav {
+  display: none;
+}
+#fx-home .flexslider .slider-text {
+  display: table;
+  opacity: 0;
+  min-height: 500px;
+  z-index: 9;
+}
+#fx-home .flexslider .slider-text > .slider-text-inner {
+  display: table-cell;
+  vertical-align: middle;
+  min-height: 700px;
+  padding: 2em;
+}
+@media screen and (max-width: 768px) {
+  #fx-home .flexslider .slider-text > .slider-text-inner {
+    text-align: center;
+  }
+}
+#fx-home .flexslider .slider-text > .slider-text-inner h1, #fx-home .flexslider .slider-text > .slider-text-inner h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Roboto", Arial, sans-serif;
+}
+#fx-home .flexslider .slider-text > .slider-text-inner h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  line-height: 1.3;
+  font-weight: 100;
+  font-family: "Roboto", Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+  #fx-home .flexslider .slider-text > .slider-text-inner h1 {
+    font-size: 28px;
+  }
+}
+#fx-home .flexslider .slider-text > .slider-text-inner h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+#fx-home .flexslider .slider-text > .slider-text-inner h2 a {
+  color: rgba(34, 136, 150, 0.8);
+  border-bottom: 1px solid rgba(34, 136, 150, 0.7);
+}
+#fx-home .flexslider .slider-text > .slider-text-inner .heading-section {
+  font-size: 50px;
+}
+@media screen and (max-width: 768px) {
+  #fx-home .flexslider .slider-text > .slider-text-inner .heading-section {
+    font-size: 30px;
+  }
+}
+#fx-home .flexslider .slider-text > .slider-text-inner s
+.fh5co-lead {
+  font-size: 20px;
+  color: #fff;
+}
+#fx-home .flexslider .slider-text > .slider-text-inner s
+.fh5co-lead .icon-heart {
+  color: #d9534f;
+}
+#fx-home .flexslider .slider-text > .slider-text-inner .btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 22px 30px !important;
+  border: none;
+  font-weight: 500;
+}
+#fx-home .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+  background: #fff;
+  color: #000;
+}
+#fx-home .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  #fx-home .flexslider .slider-text > .slider-text-inner .btn {
+    width: 100%;
+  }
+}
+
+/*End of Home Page CSS*/
+
 .fx-content-box-home {
 	position: relative;
 
@@ -379,7 +521,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   text-align: center;
 }
-
 
 @media (min-width: 800px) {
 	.fx-welcome-boxes-container {
@@ -497,6 +638,9 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (max-width: 564px) {
     	.fx-banner-title { font-size: 2.8em; }
     }
+
+
+
 /*About Page*/
 .fx-heading {
   font-size: 25px;
@@ -506,6 +650,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
 #fx-about{
     align-items: center;
 }
