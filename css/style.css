@@ -290,10 +290,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  margin-top: 200px;
 }
 @media screen and (max-width: 1200px) {
   #fx-main {
     width: 70%;
+    margin-top: 200px;
   }
   #fx-main .fx-narrow-content {
     position: relative;
@@ -306,6 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fx-main {
     width: 100%;
+    margin-top: 200px;
   }
 
 #fx-main .fx-narrow-content {
@@ -320,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   float: right;
   clear: both;
-  margin-top: 200px;
+
 }
 #fx-home .btn {
   font-size: 24px;
