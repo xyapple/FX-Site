@@ -694,7 +694,9 @@ h1, h2, h3, h4, h5, h6 {
 #fx-contact{
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 50px;
 }
+
 @media screen and (max-width: 768px) {
   #map {
     height: 200px;
