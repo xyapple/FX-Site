@@ -30,8 +30,8 @@ a:hover, a:active, a:focus {
   text-decoration: none !important;
 }
 
-p {
-  margin-bottom: 1.5em;
+p, li{
+  margin-bottom: 0.5em;
   font-family: icomoon;
 }
 
@@ -41,7 +41,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
 }
-
+#get-in-touch{
+    margin-top: -50px;
+    margin-left: 50px;
+    padding: 20px;
+}
 
 #fx-page {
   width: 100%;
@@ -654,6 +658,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fx-about{
     align-items: center;
+
 }
 #Abouttextbox{
     margin-left: 10px;
@@ -694,7 +699,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   width: 100%;
   float: left;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   position: relative;
 }
 .fx-feature .fx-icon {
