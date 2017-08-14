@@ -105,8 +105,17 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-}
 
+}
+#fx-aside .fa-ul li{
+    display: inline-block;
+    align-items: flex-end;
+}
+#fx-aside .fa-ul{
+    padding: 0, 0, 0, 0;
+    margin-left: 120px;
+
+}
 @media screen and (max-width: 1200px) {
     #fx-aside {
         width: 30%;
