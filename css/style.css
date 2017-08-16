@@ -46,7 +46,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
 }
 #get-in-touch{
-    margin-top: -50px;
+    margin-top: 10px;
+    margin-bottom: -10px;
     margin-left: 50px;
     padding: 20px;
 }
@@ -681,6 +682,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #Abouttextbox{
     margin-left: 10px;
+    margin-top: -10px;
     padding-left: 10px;
     padding-right: 30px;
     padding-top: 30px;
