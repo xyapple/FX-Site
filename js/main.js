@@ -35,6 +35,8 @@
 	// };
 
 	// Animations
+	Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
 
 	var contentWayPoint = function() {
 		var i = 0;
