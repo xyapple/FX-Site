@@ -510,12 +510,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fx-welcome-text p{
     font-size: 13px;
+    font-family: icomoon;
 }
 .fx-welcome-text small{
-    font-size: 11px;
+    font-size: 12px;
+    font-family: icomoon;
 }
 .fx-welcome-text li{
-    font-size: 11px;
+    font-size: 12px;
+    font-family: icomoon;
 }
 
 .fx-content-box { margin-top: 13px; }
@@ -576,6 +579,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.fx-section-title {
+        margin-top: 15px;
         margin-bottom: 10px;
         font-size: 28px;
         color: #228896;
