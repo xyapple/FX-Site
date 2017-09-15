@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 .fx-welcome-text {
-    padding: 10px;
+    padding: 20px;
 }
 .fx-welcome-text p{
     font-size: 13px;
@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.fx-section-title {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         font-size: 28px;
         color: #228896;
         font-weight: 600;
@@ -622,8 +622,8 @@ h1, h2, h3, h4, h5, h6 {
     	.fx-main-content { margin-left: 290px; }
     	.fx-welcome-box { max-width: 340px; }
     	.fx-welcome-text {
-    		height: 280px;
-    		padding: 10px 10px;
+    		height: 270px;
+    		padding: 10px 10px 10px 10px;
     	}
 
     	.fx-box-pad { padding: 30px; }
@@ -641,7 +641,7 @@ h1, h2, h3, h4, h5, h6 {
     	.fx-nav-item-link { padding: 30px 60px; }
     	.fx-main-content { margin-left: 370px; }
     	.fx-welcome-box { max-width: 390px; }
-    	.fx-welcome-text { padding: 30px; }
+    	.fx-welcome-text { padding: 20px; }
     	.fx-section-title { margin-bottom: 20px; }
     	.fx-box-pad { padding: 45px; }
     	.fx-welcome-boxes-container { width: 780px; } /* Need to hard code width for IE */
@@ -657,7 +657,7 @@ h1, h2, h3, h4, h5, h6 {
     	.fx-main-content { margin-left: 470px; }
     	.fx-welcome-box { max-width: 400px; }
     	.fx-section-title { margin-bottom: 30px; }
-    	.fx-welcome-text { padding: 30px; }
+    	.fx-welcome-text { padding: 20px; }
     	.fx-welcome-boxes-container { width: 820px; } /* Need to hard code width for IE */
 
     }
