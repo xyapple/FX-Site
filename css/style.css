@@ -500,15 +500,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fx-welcome-boxes-container { width: 100%; }
 .fx-welcome-box {
-	max-width: 400px;
+	max-width: 600px;
 	margin-top: 10px;
+    margin-left: 10px;
 	width: 100%;
 }
 .fx-welcome-text {
     padding: 10px;
 }
+.fx-welcome-text p{
+    font-size: 13px;
+}
+.fx-welcome-text small{
+    font-size: 11px;
+}
+.fx-welcome-text li{
+    font-size: 11px;
+}
 
-.fx-content-box { margin-top: 60px; }
+.fx-content-box { margin-top: 13px; }
 .fx-content-box:first-child { margin-top: 0; }
 .fx-flex {
 	-webkit-flex-flow: column;
@@ -555,25 +565,26 @@ h1, h2, h3, h4, h5, h6 {
 	    	-ms-flex-align: stretch;
 	        	align-items: stretch;
 		position: absolute;
-	    bottom: -63px;
+	    bottom: -93px;
 	    left: 0;
 	    right: 0;
 	}
 
 	.fx-welcome-box {
 		max-width: 400px;
-		width: 49%;
+		width: 100%;
 	}
 
 	.fx-section-title {
         margin-bottom: 30px;
+        font-size: 28px;
         color: #228896;
         font-weight: 600;
     }
 
 	.fx-welcome-text {
 		background-color: rgba(255,255,255,0.9);
-		padding: 40px;
+		padding: 10px;
         text-align: center;
         color: black;
 	}
@@ -611,8 +622,8 @@ h1, h2, h3, h4, h5, h6 {
     	.fx-main-content { margin-left: 290px; }
     	.fx-welcome-box { max-width: 340px; }
     	.fx-welcome-text {
-    		height: 245px;
-    		padding: 30px 20px;
+    		height: 280px;
+    		padding: 10px 10px;
     	}
 
     	.fx-box-pad { padding: 30px; }
@@ -646,7 +657,7 @@ h1, h2, h3, h4, h5, h6 {
     	.fx-main-content { margin-left: 470px; }
     	.fx-welcome-box { max-width: 400px; }
     	.fx-section-title { margin-bottom: 30px; }
-    	.fx-welcome-text { padding: 40px; }
+    	.fx-welcome-text { padding: 30px; }
     	.fx-welcome-boxes-container { width: 820px; } /* Need to hard code width for IE */
 
     }
