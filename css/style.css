@@ -167,6 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
     #fx-aside #fx-main-menu ul {
         margin: 0 0 1em 0;
+        width: auto;
     }
 }
 
@@ -257,6 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     visibility: hidden;
     position: relative;
     bottom: 0;
+    width: auto;
   }
 }
 #fx-aside .fx-footer {
@@ -285,12 +287,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 1200px) {
   #fx-main {
-    width: 70%;
+    width: 60%;
   }
 }
 @media screen and (max-width: 868px) {
   #fx-main {
-    width: 50%;
+    width: 40%;
   }
 }
 #fx-main .fx-narrow-content {
