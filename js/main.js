@@ -23,16 +23,17 @@
 		}
 	};
 
-	// var fullHeight = function() {
-	//
-	// 	if ( !isMobile.any() ) {
-	// 		$('.js-fullheight').css('height', $(window).height());
-	// 		$(window).resize(function(){
-	// 			$('.js-fullheight').css('height', $(window).height());
-	// 		});
-	// 	}
-	//
-	// };
+	// Mobile resize
+	var fullHeight = function() {
+
+		if ( !isMobile.any() ) {
+			$('.js-fullheight').css('height', $(window).height());
+			$(window).resize(function(){
+				$('.js-fullheight').css('height', $(window).height());
+			});
+		}
+
+	};
 
 
 
@@ -145,7 +146,7 @@
 
 	// Document on load.
 	$(function(){
-		// fullHeight();
+		 fullHeight();
 		contentWayPoint();
 		burgerMenu();
 		mobileMenuOutsideClick();
