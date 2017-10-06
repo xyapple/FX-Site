@@ -263,32 +263,19 @@ h1, h2, h3, h4, h5, h6 {
      margin: 0 0;
      line-height: 0px;
 }
-#fx-aside .fx-footer ul {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-#fx-aside .fx-footer ul li {
-  padding: 0;
-  margin: 0;
-  display: inline;
-  list-style: none;
-}
-#fx-aside .fx-footer ul li a {
-  color: rgba(0, 0, 0, 0.7);
-  padding: 4px;
-}
-#fx-aside .fx-footer ul li a:hover, #fx-aside .fx-footer ul li a:active, #fx-aside .fx-footer ul li a:focus {
+
+#fx-aside .fx-footer :hover, #fx-aside .fx-footer :active, #fx-aside .fx-footer :focus {
   text-decoration: none;
   outline: none;
   color: #228896;
+  width: 30%;
 }
 
 /*End of Sidebar*/
 
 /*Beginning of Main*/
 #fx-main {
-  width: 80%;
+  width: 100%;
   float: right;
   margin-left: 50px;
   -webkit-transition: 0.5s;
