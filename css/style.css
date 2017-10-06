@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Beginning of Main*/
 #fx-main {
-  width: 100%;
+  width: 70%;
   float: right;
   margin-left: 50px;
   -webkit-transition: 0.5s;
@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 70%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   #fx-main {
     width: 50%;
   }
