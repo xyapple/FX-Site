@@ -13,6 +13,28 @@ body {
   color: rgba(0, 0, 0, 0.5);
   /*background: whitesmoke;*/
 }
+body.offcanvas {
+  overflow-x: hidden;
+}
+body.offcanvas #fx-aside {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  width: 270px;
+  background: #fff;
+  z-index: 999;
+  position: fixed;
+}
+body.offcanvas #fx-main, body.offcanvas .fx-nav-toggle {
+  top: 100;
+  -moz-transform: translateX(270px);
+  -webkit-transform: translateX(270px);
+  -ms-transform: translateX(270px);
+  -o-transform: translateX(270px);
+  transform: translateX(270px);
+}
 @media screen and (max-width: 992px) {
   body {
     font-size: 16px;
@@ -63,13 +85,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 20px;
 }
 
-/*banner*/
+
 .fx-content-box {
     position: relative;
     margin-bottom: 63px;
-    /*background: #f8f8f8;*/
+    display: block;
 }
 
+/*banner*/
 .fx-banner {
     height: 200px;
     padding: 0;
@@ -87,6 +110,14 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
      top: 0;
 }
+
+
+@media screen and (max-width: 868px) {
+    #fxbanner {
+        display: none;
+    }
+}
+
 .MITlogo{
     margin-left: 50px;
 }
@@ -253,14 +284,14 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   #fx-aside .fx-footer {
     visibility: hidden;
-    position: relative;
     bottom: 0;
     width: auto;
   }
 }
+
 #fx-aside .fx-footer {
      margin: 0 0;
      line-height: 0px;
@@ -287,12 +318,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 1200px) {
   #fx-main {
-    width: 60%;
+    width: 70%;
   }
 }
 @media screen and (max-width: 868px) {
   #fx-main {
-    width: 40%;
+    width: 100%;
   }
 }
 #fx-main .fx-narrow-content {
@@ -510,9 +541,21 @@ h1, h2, h3, h4, h5, h6 {
 	        flex-flow: column;
 }
 .fx-welcome-img {
-    width: 100%;
-    height: auto;
+    position: relative;
+    max-width: 100%;
 }
+
+@@media (max-width: 1200px) {
+    .fx-welcome-img {
+        width: 70%;
+        height: auto;
+    }
+}
+@media(max-width:767px){
+     .fx-welcome-img  {
+         display: none!important;
+     }
+ }
 .fx-flex > div {
     flex: 1 1 auto;
 }
@@ -866,7 +909,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fx-nav-toggle i::before {
-  top: -7px;
+  top: -70px;
 }
 
 .fx-nav-toggle i::after {
