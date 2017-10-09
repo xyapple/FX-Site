@@ -13,6 +13,28 @@ body {
   color: rgba(0, 0, 0, 0.5);
   /*background: whitesmoke;*/
 }
+body.offcanvas {
+  overflow-x: hidden;
+}
+body.offcanvas #fx-aside {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  width: 270px;
+  background: #fff;
+  z-index: 999;
+  position: fixed;
+}
+body.offcanvas #fx-main, body.offcanvas .fx-nav-toggle {
+  top: 100;
+  -moz-transform: translateX(270px);
+  -webkit-transform: translateX(270px);
+  -ms-transform: translateX(270px);
+  -o-transform: translateX(270px);
+  transform: translateX(270px);
+}
 @media screen and (max-width: 992px) {
   body {
     font-size: 16px;
@@ -87,13 +109,9 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
      top: 0;
 }
-@media screen and (max-width: 1200px) {
-    #fxbanner {
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 868px) {
     #fxbanner {
         visibility: hidden;
     }
@@ -298,12 +316,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 1200px) {
   #fx-main {
-    width: 60%;
+    width: 70%;
   }
 }
 @media screen and (max-width: 868px) {
   #fx-main {
-    width: 40%;
+    width: 100%;
   }
 }
 #fx-main .fx-narrow-content {
@@ -877,7 +895,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fx-nav-toggle i::before {
-  top: -7px;
+  top: -70px;
 }
 
 .fx-nav-toggle i::after {
