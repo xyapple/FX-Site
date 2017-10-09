@@ -85,13 +85,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 20px;
 }
 
-/*banner*/
+
 .fx-content-box {
     position: relative;
     margin-bottom: 63px;
-    /*background: #f8f8f8;*/
+    display: block;
 }
 
+/*banner*/
 .fx-banner {
     height: 200px;
     padding: 0;
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 868px) {
     #fxbanner {
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -290,6 +291,7 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
   }
 }
+
 #fx-aside .fx-footer {
      margin: 0 0;
      line-height: 0px;
@@ -539,9 +541,21 @@ h1, h2, h3, h4, h5, h6 {
 	        flex-flow: column;
 }
 .fx-welcome-img {
-    width: 100%;
-    height: auto;
+    position: relative;
+    max-width: 100%;
 }
+
+@@media (max-width: 1200px) {
+    .fx-welcome-img {
+        width: 70%;
+        height: auto;
+    }
+}
+@media(max-width:767px){
+     .fx-welcome-img  {
+         display: none!important;
+     }
+ }
 .fx-flex > div {
     flex: 1 1 auto;
 }
